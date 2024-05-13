@@ -26,43 +26,25 @@ Eagle
 # Theory
 
 
-The circuit you sent me is a  simple sound reactive LED circuit. It uses the speaker  to pick up ambient sounds and convert them into electrical signals which are then amplified by the transistors, which in turn light up the LEDs.
-1.The speaker works as a microphone in this circuit. Sound waves cause the speaker cone to vibrate. This vibration induces a small voltage across the speaker terminals.
-2.The capacitors (C1 and C2) block the DC voltage from the power supply from entering the circuit, but allows the AC signals from the speaker to pass through.
-3.The 1N4148 diodes act as clippers or voltage limiters. They clip off the negative voltage halves of the AC waveform from the speaker, leaving only the positive voltage portions. This process is called half-wave rectification.
-4.The resistors (1kΩ) limit the current from the speaker to the transistors (Q1-Q5).
-5.The transistors (Q1-Q5) amplify the rectified signal from the speaker. When sound is picked up by the speaker, the transistors are turned on, which allows current to flow through the LEDs, lighting them up. The louder the sound, the brighter the LEDs will glow.
+A rain sensor alarm typically works by detecting the presence of raindrops and triggering an alarm or alert system. The theory behind its operation involves using a sensor to detect changes in conductivity, capacitance, or resistance caused by the presence of water.
 
-This is a basic circuit, and there are many variations of it online. You can experiment with different values of resistors and capacitors to change the sensitivity of the circuit and the way the LEDs respond to sound.
+One common type of rain sensor uses a simple circuit with two conductive electrodes. When raindrops fall on the electrodes, they create a conductive path between them, changing the resistance or capacitance of the circuit. This change is detected by the sensor, which then activates the alarm or alert system.
+
+Another type of rain sensor uses an optical method, where an infrared LED emits light that is reflected back to a receiver. When raindrops are present, they scatter the light, reducing the intensity of the light received by the receiver. This change in light intensity is detected by the sensor, triggering the alarm.
 
 
 ### Working 
 
-The circuit you sent me is a  simple sound reactive LED circuit. Here are the steps on how to build it:
+Components:
 
-Collect your parts. You will need:
-
-LEDs (any color)
-1N4148 diodes (4)
-1k resistors (6)
-470uF capacitors (2)
-Speaker
-9V battery
-Breadboard
-Jumper wires
-Connect the positive lead of the battery to the positive rail of the breadboard. Connect the negative lead of the battery to the negative rail of the breadboard.
-
-Connect one of the 470uF capacitors to the positive rail and the other to the negative rail.
-
-Connect the positive leg of the speaker to the positive rail of the breadboard. Connect the negative leg of the speaker to one of the 1k resistors.
-
-Connect the other leg of the 1k resistor to the negative leg of one of the 1N4148 diodes.
-
-Connect the positive leg of the same 1N4148 diode to an LED. Connect the negative leg of the LED to the negative rail of the breadboard.
-
-Repeat steps 4-6 four more times so that you have a total of four LEDs and four 1N4148 diodes connected in the same way.
-
-Now you can adjust the sensitivity of the circuit by changing the value of the resistor connected between the speaker and the positive rail. A lower value resistor will make the circuit more sensitive.
+Raindrop sensor module
+Buzzer
+10kΩ resistor
+5V power supply
+The raindrop sensor module has a series of traces on its surface that change resistance when wet.
+When it starts to rain, the module becomes conductive, allowing current to flow from the +5V through the module to ground (GND).
+The 10kΩ resistor is used to limit the current to a safe value.
+When current flows through the module, it triggers the buzzer, producing an alarm sound.
 
 # Circuit Diagram
 ![WhatsApp Image 2024-05-13 at 18 51 31_e3bb5a24](https://github.com/Iyalarasu1/PCB-Design-Application/assets/144870581/f85c6948-f31c-4a35-8138-fbe9b10345ab)
