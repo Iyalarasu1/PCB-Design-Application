@@ -65,15 +65,18 @@ Repeat steps 4-6 four more times so that you have a total of four LEDs and four 
 Now you can adjust the sensitivity of the circuit by changing the value of the resistor connected between the speaker and the positive rail. A lower value resistor will make the circuit more sensitive.
 
 # Circuit Diagram
-![image](https://github.com/23007232/PCB-Design-Application/assets/139115574/e0a48a00-3c90-411b-87ca-be6b8604dbd7)
+![WhatsApp Image 2024-05-13 at 18 51 31_e3bb5a24](https://github.com/Iyalarasu1/PCB-Design-Application/assets/144870581/f85c6948-f31c-4a35-8138-fbe9b10345ab)
+
 
 # Output
 
 ### Schematic diagram
-![image](https://github.com/23007232/PCB-Design-Application/assets/139115574/4ad6e4fe-224d-4e9b-a756-5eda50417d1e)
+![WhatsApp Image 2024-05-13 at 18 39 55_851619cb](https://github.com/Iyalarasu1/PCB-Design-Application/assets/144870581/03a2942c-9e3c-42f7-9709-76242ff52d58)
+
 
 ### Layout diagram
-![image](https://github.com/23007232/PCB-Design-Application/assets/139115574/927a6f43-014f-4d92-8252-ad25256fdf5a)
+![WhatsApp Image 2024-05-13 at 18 39 55_e78c464a](https://github.com/Iyalarasu1/PCB-Design-Application/assets/144870581/26dad029-fedf-4cfb-a4ae-ade03605230d)
+
 
 # Result
 
