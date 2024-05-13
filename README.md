@@ -24,7 +24,7 @@ Eagle
 15.Save the generated manufacturing files.</br>
 
 # Theory
-```
+
 
 The circuit you sent me is a  simple sound reactive LED circuit. It uses the speaker  to pick up ambient sounds and convert them into electrical signals which are then amplified by the transistors, which in turn light up the LEDs.
 1.The speaker works as a microphone in this circuit. Sound waves cause the speaker cone to vibrate. This vibration induces a small voltage across the speaker terminals.
@@ -35,9 +35,9 @@ The circuit you sent me is a  simple sound reactive LED circuit. It uses the spe
 
 This is a basic circuit, and there are many variations of it online. You can experiment with different values of resistors and capacitors to change the sensitivity of the circuit and the way the LEDs respond to sound.
 
-```
+
 ### Working 
-```
+
 The circuit you sent me is a  simple sound reactive LED circuit. Here are the steps on how to build it:
 
 Collect your parts. You will need:
@@ -63,10 +63,6 @@ Connect the positive leg of the same 1N4148 diode to an LED. Connect the negativ
 Repeat steps 4-6 four more times so that you have a total of four LEDs and four 1N4148 diodes connected in the same way.
 
 Now you can adjust the sensitivity of the circuit by changing the value of the resistor connected between the speaker and the positive rail. A lower value resistor will make the circuit more sensitive.
-```
-
-
-
 
 # Circuit Diagram
 ![image](https://github.com/23007232/PCB-Design-Application/assets/139115574/e0a48a00-3c90-411b-87ca-be6b8604dbd7)
